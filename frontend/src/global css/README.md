@@ -1,6 +1,6 @@
-# DealFlow360 Global CSS Component Reference
+# PrismQTC Global CSS Component Reference
 
-This directory contains the global CSS design system and component references for all internal application and customer portal pages in DealFlow360.
+This directory contains the global CSS design system and component references for all internal application and customer portal pages in PrismQTC.
 
 > **Scope**: Applied to all staff screens (Dashboard, Quotations, Approvals, Fulfillment, Billing, Catalog, Governance, Deal Health, RFQs) and Customer Portal pages.  
 > **Excluded**: Public marketing landing page (`/`) and authentication screens (`/login`, `/signup`), which retain their dark-mode visual identities.

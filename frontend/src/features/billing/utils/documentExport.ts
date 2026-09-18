@@ -58,7 +58,7 @@ export function exportInvoiceQuotationPDF({ invoice, quotation }: ExportData) {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(18);
   doc.setFont('helvetica', 'bold');
-  doc.text('DEALFLOW 360', 14, 16);
+  doc.text('PRISMQTC', 14, 16);
 
   doc.setFontSize(9);
   doc.setFont('helvetica', 'normal');
@@ -326,7 +326,7 @@ export async function exportInvoiceQuotationDOCX({ invoice, quotation }: ExportD
         properties: {},
         children: [
           new Paragraph({
-            text: 'DEALFLOW 360',
+            text: 'PRISMQTC',
             heading: HeadingLevel.TITLE,
             children: [
               new TextRun({
@@ -434,7 +434,7 @@ export function exportQuotationPDF(quotation: any) {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(18);
   doc.setFont('helvetica', 'bold');
-  doc.text('DEALFLOW 360', 14, 16);
+  doc.text('PRISMQTC', 14, 16);
 
   doc.setFontSize(9);
   doc.setFont('helvetica', 'normal');
@@ -550,7 +550,7 @@ export function exportQuotationPDF(quotation: any) {
   doc.setFontSize(8);
   doc.setFont('helvetica', 'italic');
   doc.setTextColor(neutralGray[0], neutralGray[1], neutralGray[2]);
-  doc.text('Terms: Quotation valid for 30 days from issue date. Subject to DealFlow 360 multi-tier approval governance.', 14, finalY + 30);
+  doc.text('Terms: Quotation valid for 30 days from issue date. Subject to PrismQTC multi-tier approval governance.', 14, finalY + 30);
 
   doc.save(`${quotation.quotation_code || quotation.quotationCode || 'Quotation'}_Proposal.pdf`);
 }
@@ -599,7 +599,7 @@ export async function exportQuotationDOCX(quotation: any) {
         properties: {},
         children: [
           new Paragraph({
-            text: 'DEALFLOW 360 - COMMERCIAL QUOTATION PROPOSAL',
+            text: 'PRISMQTC - COMMERCIAL QUOTATION PROPOSAL',
             heading: HeadingLevel.HEADING_1,
             spacing: { after: 200 },
           }),
@@ -634,7 +634,7 @@ export async function exportQuotationDOCX(quotation: any) {
             spacing: { before: 400 },
             children: [
               new TextRun({
-                text: 'NOTE: Quotation is governed by DealFlow 360 real-time pricing and margin policy controls.',
+                text: 'NOTE: Quotation is governed by PrismQTC real-time pricing and margin policy controls.',
                 italics: true,
               }),
             ],

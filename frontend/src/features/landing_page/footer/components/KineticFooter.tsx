@@ -25,7 +25,7 @@ export const KineticFooter: React.FC<KineticFooterProps> = () => {
         {/* Giant Ghost Watermark */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none z-0 opacity-15 overflow-hidden">
           <span className="font-display font-black text-6xl sm:text-8xl md:text-9xl tracking-tighter text-outline uppercase whitespace-nowrap">
-            DEALFLOW 360
+            PRISMQTC
           </span>
         </div>
 
@@ -147,7 +147,7 @@ export const KineticFooter: React.FC<KineticFooterProps> = () => {
 
             <div className="pt-2">
               <ScrambleCTAButton
-                text="ENTER DEALFLOW360 WORKSPACE"
+                text="ENTER PRISMQTC WORKSPACE"
                 variant="red"
                 size="md"
                 arrowIcon="diagonal"
@@ -163,11 +163,11 @@ export const KineticFooter: React.FC<KineticFooterProps> = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
           <div className="flex items-center justify-center gap-3 sm:gap-6 w-full">
             <h2 className="font-display font-bold text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl tracking-tighter text-[#111] uppercase whitespace-nowrap text-center">
-              DEALFL
+              PRISM
             </h2>
             <RedTargetGlyph className="w-8 h-8 sm:w-16 sm:h-16 lg:w-24 lg:h-24 shrink-0" />
             <h2 className="font-display font-bold text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl tracking-tighter text-[#111] uppercase whitespace-nowrap text-center">
-              W360
+              QTC
             </h2>
           </div>
         </div>
@@ -177,7 +177,7 @@ export const KineticFooter: React.FC<KineticFooterProps> = () => {
       <div className="border-t border-[#e5e5e5] bg-[#fafafa] py-6 text-[11px] font-mono text-neutral-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
-            COPYRIGHT &copy; 2026 DEALFLOW360. ALL RIGHTS RESERVED.
+            COPYRIGHT &copy; 2026 PRISMQTC. ALL RIGHTS RESERVED.
           </div>
           <div className="flex items-center gap-6">
             <a href="#hero" className="hover:text-black transition-colors">DISCOUNT GOVERNANCE</a>

@@ -197,7 +197,7 @@ export const ScatteredParallaxIntro: React.FC<ScatteredParallaxIntroProps> = () 
         {/* Detailed Narrative */}
         <div className="relative rounded-3xl border border-neutral-200/90 bg-white/95 backdrop-blur-md p-5 sm:p-7 space-y-4 max-w-xl shadow-lg">
           <div className="text-xs font-mono font-bold text-[#FF3B19] uppercase tracking-widest">
-            THE DEALFLOW360 ARCHITECTURE
+            THE PRISMQTC ARCHITECTURE
           </div>
 
           <h3 className="font-display font-semibold text-base sm:text-lg text-[#111] leading-snug">
@@ -205,7 +205,7 @@ export const ScatteredParallaxIntro: React.FC<ScatteredParallaxIntroProps> = () 
           </h3>
 
           <p className="text-xs sm:text-sm text-neutral-600 leading-relaxed font-normal">
-            DealFlow360 enforces pricing discipline through a mathematically rigorous blended risk score, reacts to warehouse inventory reality in real-time, reconciles recurring and one-time billing schedules on a single contract, and gives buyers a collaborative live portal instead of static PDF friction.
+            PrismQTC enforces pricing discipline through a mathematically rigorous blended risk score, reacts to warehouse inventory reality in real-time, reconciles recurring and one-time billing schedules on a single contract, and gives buyers a collaborative live portal instead of static PDF friction.
           </p>
 
           <div className="pt-1">

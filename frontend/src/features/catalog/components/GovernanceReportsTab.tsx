@@ -232,7 +232,7 @@ export const GovernanceReportsTab: React.FC = () => {
       doc.setTextColor(255, 255, 255);
       doc.setFontSize(18);
       doc.setFont('helvetica', 'bold');
-      doc.text('DEALFLOW 360', 14, 16);
+      doc.text('PRISMQTC', 14, 16);
 
       doc.setFontSize(9);
       doc.setFont('helvetica', 'normal');
@@ -339,7 +339,7 @@ export const GovernanceReportsTab: React.FC = () => {
         });
       }
 
-      doc.save(`dealflow-governance-report-${new Date().toISOString().slice(0, 10)}.pdf`);
+      doc.save(`prismqtc-governance-report-${new Date().toISOString().slice(0, 10)}.pdf`);
       toast.success('Executive PDF report downloaded successfully!');
     } catch (err: any) {
       toast.error('Failed to generate PDF: ' + err.message);
@@ -358,7 +358,7 @@ export const GovernanceReportsTab: React.FC = () => {
       html += '<head><meta charset="utf-8"/><style>table{border-collapse:collapse;width:100%;font-family:sans-serif;} th{background:#0f172a;color:#fff;padding:8px;border:1px solid #cbd5e1;} td{padding:6px;border:1px solid #e2e8f0;text-align:left;} .num{text-align:right;} .center{text-align:center;}</style></head><body>';
 
       // Title
-      html += '<h2>DEALFLOW 360 - GOVERNANCE & TELEMETRY EXECUTIVE REPORT</h2>';
+      html += '<h2>PRISMQTC - GOVERNANCE & TELEMETRY EXECUTIVE REPORT</h2>';
       html += `<p>Generated on: ${new Date().toLocaleString()}</p>`;
 
       // Table 1: Overview
@@ -392,7 +392,7 @@ export const GovernanceReportsTab: React.FC = () => {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.setAttribute('download', `dealflow-governance-report-${new Date().toISOString().slice(0, 10)}.xls`);
+      link.setAttribute('download', `prismqtc-governance-report-${new Date().toISOString().slice(0, 10)}.xls`);
       document.body.appendChild(link);
       link.click();
       link.parentNode?.removeChild(link);
@@ -828,7 +828,7 @@ export const GovernanceReportsTab: React.FC = () => {
                       required
                       value={sendNowEmail}
                       onChange={(e) => setSendNowEmail(e.target.value)}
-                      placeholder="admin@dealflow360.com"
+                      placeholder="admin@prismqtc.com"
                       className="app-input !pl-10"
                     />
                   </div>
@@ -1006,7 +1006,7 @@ export const GovernanceReportsTab: React.FC = () => {
                       required
                       value={cronRecipient}
                       onChange={(e) => setCronRecipient(e.target.value)}
-                      placeholder="admin@dealflow360.com"
+                      placeholder="admin@prismqtc.com"
                       className="app-input !pl-10"
                     />
                   </div>

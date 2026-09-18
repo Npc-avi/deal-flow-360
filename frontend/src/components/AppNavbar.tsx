@@ -66,7 +66,7 @@ export const AppNavbar: React.FC = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-display font-black tracking-tight text-xs sm:text-sm uppercase text-white">
-                  DEALFLOW<span className="text-[#ff3b30]">360</span>
+                  PRISM<span className="text-[#ff3b30]">QTC</span>
                 </span>
                 <span className="text-[8px] font-mono tracking-widest text-neutral-400 uppercase -mt-0.5">
                   {isPortal ? 'CLIENT PORTAL' : 'SALES OPERATIONS'}

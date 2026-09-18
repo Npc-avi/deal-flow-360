@@ -75,7 +75,7 @@ export function useRazorpayCheckout() {
         key: data.keyId,
         amount: data.amount,
         currency: data.currency,
-        name: 'DealFlow 360',
+        name: 'PrismQTC',
         description: `Invoice Settlement: ${invoice.invoice_number}`,
         order_id: data.orderId,
         prefill: {
@@ -102,7 +102,7 @@ export function useRazorpayCheckout() {
         }) {
           try {
             setProcessing(true);
-            toast.info('Verifying payment signature with DealFlow 360...');
+            toast.info('Verifying payment signature with PrismQTC...');
 
             const verifyRes = await verifyRazorpayPaymentApi(invoice.id, {
               razorpay_order_id: response.razorpay_order_id,

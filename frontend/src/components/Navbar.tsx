@@ -95,7 +95,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     isLightText ? 'text-white drop-shadow-sm' : 'text-[#111]'
                   }`}
                 >
-                  DEALFLOW<span className="text-[#ff3b30]">360</span>
+                  PRISM<span className="text-[#ff3b30]">QTC</span>
                 </span>
                 <span className="text-[8px] font-mono tracking-widest text-neutral-400 uppercase -mt-0.5">
                   SALES OPERATIONS

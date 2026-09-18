@@ -61,3 +61,4 @@ redis-data/*
 *.rdb
 *.aof
 
+HASHNODE_BLOG_POST.md

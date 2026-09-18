@@ -2,7 +2,7 @@ import React from 'react';
 
 // Card 1: Blended Discount Risk Matrix & Approval Gate ASCII
 export const DISCOUNT_GATE_ASCII = `    +===========================================+
-    |       DEALFLOW360 // BLENDED RISK GATE     |
+    |       PRISMQTC // BLENDED RISK GATE       |
     +===========================================+
     |  CUSTOMER TIER : GOLD [MAX CEILING 15%]   |
     |-------------------------------------------|
@@ -22,7 +22,7 @@ export const DISCOUNT_GATE_ASCII = `    +=======================================
 export const PENGUIN_ASCII = DISCOUNT_GATE_ASCII;
 
 // Card 2: Multi-Warehouse Auto-Split & Fulfillment Topology ASCII
-export const WAREHOUSE_SPLIT_ASCII = `          [ DEALFLOW ORDER #DF-9281 ]
+export const WAREHOUSE_SPLIT_ASCII = `          [ PRISMQTC ORDER #PQ-9281 ]
                      |
          +-----------+-----------+
          |                       |

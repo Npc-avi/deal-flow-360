@@ -62,7 +62,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
             {/* Right: Subtext & ScrambleCTAButton anchored tightly to the right */}
             <div className="lg:col-span-5 lg:ml-auto w-full max-w-sm sm:max-w-md flex flex-col items-start space-y-4 pb-2">
               <p className="text-xs sm:text-[13px] text-neutral-300 leading-relaxed font-normal drop-shadow-sm">
-                Most sales tools handle quotes and invoices. <strong className="text-white font-semibold">DealFlow360</strong> goes beyond: enforcing pricing discipline with blended risk scoring, automatically splitting warehouse fulfillment, and transforming static PDF quotes into living, negotiable customer portals.
+                Most sales tools handle quotes and invoices. <strong className="text-white font-semibold">PrismQTC</strong> goes beyond: enforcing pricing discipline with blended risk scoring, automatically splitting warehouse fulfillment, and transforming static PDF quotes into living, negotiable customer portals.
               </p>
 
               <div className="flex flex-wrap items-center gap-3 pt-2">

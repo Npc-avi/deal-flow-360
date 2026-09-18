@@ -72,7 +72,7 @@ export const AppSidebar: React.FC = () => {
       </nav>
 
       <div className="pt-4 border-t border-white/10 text-[11px] text-white/30 text-center">
-        DealFlow360 v2.0 &bull; Enterprise
+        PrismQTC v2.0 &bull; Enterprise
       </div>
     </aside>
   );

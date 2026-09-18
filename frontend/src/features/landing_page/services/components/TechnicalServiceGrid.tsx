@@ -9,7 +9,7 @@ interface TechnicalServiceGridProps {
 }
 
 const MANIFESTO_TEXT =
-  "In modern enterprise sales operations, static forms break down when reality hits. DealFlow360 unifies multi-tier discount governance, stock-aware warehouse fulfillment, hybrid subscription billing, and real-time customer portal negotiations into an autonomous quotation-to-cash engine.";
+  "In modern enterprise sales operations, static forms break down when reality hits. PrismQTC unifies multi-tier discount governance, stock-aware warehouse fulfillment, hybrid subscription billing, and real-time customer portal negotiations into an autonomous quotation-to-cash engine.";
 
 export const TechnicalServiceGrid: React.FC<TechnicalServiceGridProps> = () => {
   return (

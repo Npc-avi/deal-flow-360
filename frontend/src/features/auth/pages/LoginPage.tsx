@@ -141,10 +141,10 @@ export const LoginPage: React.FC = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center">
         <Link to="/" className="inline-flex items-center gap-2 mb-3 group">
           <div className="w-8 h-8 rounded-lg bg-[var(--app-brand-red,#ff3b30)] flex items-center justify-center text-white font-black text-sm shadow-sm">
-            D
+            P
           </div>
           <span className="font-display font-black text-lg tracking-tight text-[var(--app-text-primary,#111111)]">
-            DEALFLOW<span className="text-[var(--app-brand-red,#ff3b30)]">360</span>
+            PRISM<span className="text-[var(--app-brand-red,#ff3b30)]">QTC</span>
           </span>
         </Link>
         <h2 className="font-display font-black text-2xl tracking-tight text-[var(--app-text-primary,#111111)]">
