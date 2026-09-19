@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DealFlow 360 — B2B Sales Operations & Quote-to-Cash Platform
+# 🚀 Prism-QTC — B2B Sales Operations & Quote-to-Cash Platform
 
 <img src="./deal_flow.png" alt="DealFlow 360" width="300" />
 
